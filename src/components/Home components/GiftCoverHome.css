@@ -1,0 +1,20 @@
+.gift_cover{
+    position: relative;
+    background-image: url('https://static.zohocdn.com/sites/stock-images/images/zpstock-image-759.jpg');
+    background-size: cover; /* Ensure the image covers the entire element */
+    background-position: center; /* Center the image */
+    width: 87%; /* Set the width as needed */
+    height: 87%; /* Set the opacity as needed */
+    /* Add a transition effect for opacity */
+
+}
+
+.gift_cover::before {
+    content: ""; /* Required for pseudo-elements */
+    position: absolute; /* Position the pseudo-element */
+    top: 0;
+    left: 0;
+    width: 100%; /* Take up the entire width */
+    height: 100%; /* Take up the entire height */
+    background-color: rgba(255, 255, 255, 0.7); /* Apply a semi-transparent white color */
+  }

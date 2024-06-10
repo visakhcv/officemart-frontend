@@ -1,0 +1,34 @@
+#top-button{
+    background-color: white;
+}
+#top-button:hover{
+    background-color: rgb(218, 218, 218);
+}
+
+#button-link{
+    background-color: yellow;
+}
+
+.change-background{
+    background-color: red;
+}
+
+.delete{
+    color: white;
+}
+.delete:hover{
+    color: red;
+}
+
+#sidebar-link{
+    color: white;
+}
+
+#sidebar-link:hover{
+    color: black;
+    
+}
+
+#list-grid:hover{
+    background-color: white;
+}
